@@ -1,0 +1,28 @@
+{
+  "name": "webdriverio_javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js --spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsmita22/webdriverIO_javascript.git"
+  },
+  "author": "Smita Dutta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsmita22/webdriverIO_javascript/issues"
+  },
+  "homepage": "https://github.com/dsmita22/webdriverIO_javascript#readme",
+  "devDependencies": {
+    "@wdio/local-runner": "^7.5.7",
+    "@wdio/mocha-framework": "^7.5.3",
+    "@wdio/spec-reporter": "^7.5.7",
+    "@wdio/cli": "^7.5.7",
+    "chai": "^4.3.4",
+    "chromedriver": "^90.0.0",
+    "wdio-chromedriver-service": "^7.0.0"
+  }
+}
